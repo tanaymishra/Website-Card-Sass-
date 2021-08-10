@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-family: "Poppins",sans-serif;
+}
+
+main * {
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+}
+
+button {
+  color: black;
+}
+
+.none {
+  display: none;
+}
+
+img {
+  width: 100%;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+}
+
+.gamers img {
+  width: 2em;
+  height: 2em;
+  border-radius: 20rem;
+  border: 1px solid black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+
+.container main {
+  width: 18rem;
+  height: 35rem;
+  position: relative;
+}
+
+.container main .firstsec {
+  height: 70%;
+}
+
+.container main .firstsec .image {
+  height: 90%;
+  position: relative;
+}
+
+.container main .firstsec .image * {
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.container main .firstsec .image .mark {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  top: 0px;
+  right: 18px;
+  background: rgba(0, 0, 0, 0.589);
+  width: 30px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
+          clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
+}
+
+.container main .firstsec img {
+  border-radius: 10px;
+  height: 100%;
+}
+
+main .gamers {
+  margin-top: .5rem;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+main .gamers h3 {
+  font-weight: 100;
+}
+
+main .gamers .g-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+main .gamers .gamer span {
+  display: none;
+}
+
+.trans:nth-child(2) {
+  -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+}
+
+.trans:nth-child(3) {
+  -webkit-transform: translateX(-13px);
+          transform: translateX(-13px);
+}
+
+.m2 {
+  margin-top: .5rem;
+}
+
+.info-dw-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: anim-oth 0.5s ease-in-out forwards;
+          animation: anim-oth 0.5s ease-in-out forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  opacity: 0;
+}
+
+.m2-active {
+  font-weight: 100 !important;
+}
+
+.line {
+  width: 2px;
+  height: 3.5rem;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0rem 0.5rem;
+}
+
+.image-active {
+  height: 60% !important;
+  width: 80%;
+}
+
+.firstsec-active {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.first-fl-active {
+  -webkit-animation: animH 0.5s ease-in-out forwards;
+          animation: animH 0.5s ease-in-out forwards;
+  opacity: 1;
+  -webkit-transform: translate(-50px, 110px);
+          transform: translate(-50px, 110px);
+}
+
+.first-fl-active button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  -webkit-animation: anim-oth 0.5s ease-in-out forwards;
+          animation: anim-oth 0.5s ease-in-out forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: wheat !important;
+  background: #0a84ff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.first-fl-active :active {
+  background: #074d92;
+}
+
+.first h2,
+.second h2 {
+  font-weight: 400;
+}
+
+.first p,
+.second p {
+  font-weight: 300;
+}
+
+.g-group-active {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gamers-active h3 {
+  display: none;
+}
+
+.gamers-active .gamer-active {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.gamers-active .gamer-active span {
+  display: block !important;
+}
+
+.gamers-active .gamer-active span h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.gamers-active .gamer-active span h4 {
+  font-weight: 400;
+}
+
+.gamer span {
+  opacity: 0;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
+  -webkit-animation: logo 0.5s ease-in-out forwards;
+          animation: logo 0.5s ease-in-out forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.gamer-active:nth-child(1) {
+  -webkit-transform: translateX(9.5rem);
+          transform: translateX(9.5rem);
+  -webkit-animation: logo 0.5s ease-in-out forwards;
+          animation: logo 0.5s ease-in-out forwards;
+}
+
+.gamer-active:nth-child(2) {
+  -webkit-transform: translateX(5rem);
+          transform: translateX(5rem);
+  -webkit-animation: logo 0.5s ease-in-out forwards;
+          animation: logo 0.5s ease-in-out forwards;
+}
+
+.main-active::before {
+  content: " ";
+  width: 2%;
+  height: 60%;
+  background-color: #1c2631;
+  position: absolute;
+  border-radius: 10px;
+  -webkit-animation: door .5s ease-in-out forwards;
+          animation: door .5s ease-in-out forwards;
+}
+
+@-webkit-keyframes anim-oth {
+  from {
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes anim-oth {
+  from {
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animH {
+  form {
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes animH {
+  form {
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes logo {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes door {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes door {
+  to {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
